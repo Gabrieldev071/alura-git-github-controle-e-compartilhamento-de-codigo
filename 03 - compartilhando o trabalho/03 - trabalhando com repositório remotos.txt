@@ -1,0 +1,7 @@
+Antes de sincronizar as nossas mudanças no código com algum repositório remoto, precisamos adicioná-lo ao nosso repositório local.
+
+Como adicionamos esta ligação entre os repositórios?
+
+git remote add nome-repositorio caminho/para/o/repositorio
+
+Alternativa correta! Desta forma teremos um link do nosso repositório local com o repositório remoto, que chamamos de nome-repositorio, que está armazenado em caminho/para/o/repositorio.
