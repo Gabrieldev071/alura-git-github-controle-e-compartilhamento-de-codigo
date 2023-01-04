@@ -1,0 +1,11 @@
+echo "# Alura-JavaScript-HTML-aula-1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Gabrieldev071/git-github-controle-e-compartilhamento-de-codigo.git
+git push -u origin main
+
+
+# git-github-controle-e-compartilhamento-de-codigo
+Conteúdos abordados durante o curso de Git e GitHub - controle e compartilhamento de código fornecido pela Alura e Oracle através do Programa programa ONE.

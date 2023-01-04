@@ -1,0 +1,12 @@
+Agora que nós já entendemos para que serve um VCS (Version Control System), ou sistema de controle de versões, podemos dar continuidade com este treinamento, mas só para garantir...
+
+Nos deixa organizar o trabalho em equipe, mantendo as alterações nos arquivos em um servidor específico para isso
+
+ O Git permite que a gente armazene as modificações feitas em cada arquivo em um servidor próprio para isso. 
+Toda a gestão de alterações é feita pelo Git e nós só precisamos nos preocupar em criar código que funciona, e não em quem alterou o que antes.
+
+
+Permite armazenamento e acesso a um histórico de modificações
+
+
+Alternativa correta! Cada alteração que você faz fica gravada em um histórico, podendo ser visualizada e restaurada a qualquer instante.

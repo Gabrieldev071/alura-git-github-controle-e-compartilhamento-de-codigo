@@ -1,0 +1,7 @@
+Antes de qualquer interação com o git, você precisa informar quem é você para que ele armazene corretamente os dados do autor de cada uma das alterações no código.
+
+No vídeo eu não fiz isso pois o git já estava configurado na máquina, mas para você fazer isso na sua, caso esteja começando a utilizar o git agora, basta digitar os seguintes comandos (estando na pasta do repositório git):
+
+
+git config --local user.name "Seu nome aqui"
+git config --local user.email "seu@email.aqui"
