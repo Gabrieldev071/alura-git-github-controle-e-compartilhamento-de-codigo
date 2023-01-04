@@ -1,0 +1,76 @@
+*********Para adicionar arquivos ao github, basta seguir essa lógica*****************
+echo "# Alura-JavaScript-HTML-aula-1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Gabrieldev071/git-github-controle-e-compartilhamento-de-codigo.git
+git push -u origin main
+
+***************CRIAÇÃO DE PASTAS***********
+
+mkdir 
+
+*****************CRIAÇÃO DE ARQUIVOS***********
+
+
+**********INICIALIZAÇÃO DE UM REPOSITÓRIO com git init**************
+
+Queremos que um repositório do Git seja inicializado, e para tal usamos o comando git init.
+
+Todas as alterações que forem realizadas no arquivo localizado dentro deste repositório poderão ser mostradas pelo Git, com indicações do que foi modificado, quem modificou, quando.....
+
+*********STATUS DO REPOSITÓRIO com git status***********
+
+git status
+
+
+***********LISTAR CONFIGURAÇÃO DO GIT com git config -l*************
+
+git config -l
+
+
+*****************SALVAR A VERSÃO NO ARQUIVO TEMPORÁRIO STAGE******************
+
+git add . 
+
+************ REALIZANDO COMMITS com git commits -m "exemplo" ***************
+
+git commits -m
+
+salvando versão dos arquivos no repositório git colocando uma descrição dos commits.
+
+
+************ENVIADO PROJETOS PARA O GIT HUB com git push --set-upstream origin main ou git push -u origin main***************
+
+após criar repositório, enviar para a urgl e depois git push --set-upstream origin main
+
+********VENDO HISTÓRICO DO GIT com git log*****************
+
+git log mostra o histórico de modificações no repositório 
+
+*************ARQUIVOS OCUlTOS**************
+
+Iniciar -> Opções de explorador de arquivos
+
+Modo de exibições:
+
+Desmacar: "ocultar extensões dos tipos de arquivos conhecidos"
+
+Marcar: "Mostrar arquivos, pastas e unidades ocultas"
+
+*****************COMO USAR O VIM:*********************************
+
+i= para entrar no modo de inserção/digitação
+
+ESC= para sair do modo de inserção/digitação
+
+!!Para sair do Vim pressione ESC e então digite : e depois q de quit. Como está abaixo!!
+
+:q= sair do arquivo sem salvar
+
+:q! = sair do arquivo de forma forçada
+
+:wq= sair e salvar
+
+:x= sair e salvar

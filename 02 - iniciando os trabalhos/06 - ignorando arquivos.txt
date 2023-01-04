@@ -1,0 +1,7 @@
+.gitignore é responsável por desconsiderar aquele arquivo.
+
+-ide-config
+
+Quando realizar um commit? Sempre que houver alterações consideráveis no projeto.
+
+E nunca commitar um código que não funciona. 

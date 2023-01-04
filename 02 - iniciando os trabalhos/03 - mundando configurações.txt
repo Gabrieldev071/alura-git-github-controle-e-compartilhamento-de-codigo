@@ -1,0 +1,5 @@
+para mudar configurações, digite:
+
+git config --local ou globall (projeto local ou para computador todo, ou seja, global).
+
+Existe uma infinidade de formatos que podemos usar como filtros para mostrar nosso histórico, e em git log cheatsheet há vários delas. 
