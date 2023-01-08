@@ -1,0 +1,7 @@
+Além de adicionar repositórios remotos para sincronizar os dados, vimos que o git clone traz um repositório remoto para o nosso computador, criando um repositório local.
+
+Ao alterar os códigos em nosso repositório local, como enviar as alterações para o repositório remoto?
+
+git push [repositorio] master
+
+Alternativa correta! Desta forma, nós enviamos as alterações em nosso branch master (falaremos mais sobre branches já já) para o repositório remoto. Basta substituir [repositorio] pelo nome que demos ao repositório ao adicioná-lo. Já para trazer os dados que estiverem no repositório remoto, podemos utilizar o git pull [repositorio] master.
