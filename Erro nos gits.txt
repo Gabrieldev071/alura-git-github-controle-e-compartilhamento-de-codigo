@@ -1,0 +1,17 @@
+*******Repositórios desatualiados*******
+
+Exemplo: 
+
+To https://github.com/anottsu/IMC.py.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/anottsu/IMC.py.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+O erro apresentado acontece quando trabalhamos em uma versão desatualizada dos arquivos pertencentes ao projeto. Por exemplo,em nossa máquina local possui uma versão com 2 arquivos, enquanto no repositório remoto, possuímos 3 arquivos, então, essa discrepância entre os repositórios faz com que antes de enviar alterações, façamos uma atualização do repositório, para que em ambos os lugares tenha a mesma versão, os mesmos arquivos, os mesmos conteúdos. Então, o que pode ter acontecido no seu caso é que o repositório local possuía uma versão diferente do repositório remoto, o que nos obriga a atualizá-los através do comando "git pull" para que ambos os lugares tenham a mesma versão.
+
+Inclusive, quando trabalhamos em equipe usando o git, uma boa prática é sempre executarmos o comando git pull antes de realizarmos qualquer modificação ou envio de arquivos, pois dessa forma garantimos que ambas as pessoas trabalharão na versão mais recente do projeto.
+
+Então, não se preocupe, é uma mensagem de erro que pode assustar a princípio, mas é uma mensagem esperada caso os repositórios não possuam os mesmos repertórios e para correção ou se precaver, basta manter a prática de executar o comando git pull antes de modificar ou fazer o envio para o repositório.

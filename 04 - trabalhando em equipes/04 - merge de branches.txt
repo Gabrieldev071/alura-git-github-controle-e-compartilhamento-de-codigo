@@ -1,0 +1,9 @@
+Agora que entendemos como separar o desenvolvimento em linhas ("ramos") diferentes, é hora de trazer estas modificações para a master, que é a nossa branch "padrão".
+
+Como podemos fazer o merge da branch titulo para a branch master?
+
+
+git checkout master e git merge titulo
+
+
+Alternativa correta! Desta forma colocaremos o HEAD na branch master, ou seja, faremos com que o nosso código esteja no estado que o deixamos com o último commit na master. Depois, uniremos o trabalho da branch titulo com a branch atual (master).
