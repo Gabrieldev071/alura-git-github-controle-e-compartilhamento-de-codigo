@@ -1,0 +1,5 @@
+Já utilizamos em mais de uma ocasião o comando git checkout.
+
+Resumidamente, para que serve o comando git checkout?
+
+A descrição do comando git checkout --help, em uma tradução livre é: "Atualizar os arquivos na working tree para ficarem na versão especificada. [...]". Basicamente, podemos deixar o nosso código no estado do último commit de uma branch, de um commit específico, ou mesmo tags (que veremos adiante).

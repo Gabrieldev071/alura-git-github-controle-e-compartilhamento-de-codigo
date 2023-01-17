@@ -1,0 +1,7 @@
+Vimos como podemos utilizar git stash para armazenar temporariamente algumas de nossas alterações.
+
+Em que momento o stash parece útil?
+
+Quando precisamos parar o desenvolvimento de algo no meio para trabalhar em outra coisa!
+
+Quando precisamos pausar o desenvolvimento de alguma funcionalidade, ou correção, antes de finalizar, talvez não seja interessante realizar um commit, pois o nosso código pode não estar funcionando ainda. Nesse caso é interessante salvar o trabalho para podermos voltar a ele depois.

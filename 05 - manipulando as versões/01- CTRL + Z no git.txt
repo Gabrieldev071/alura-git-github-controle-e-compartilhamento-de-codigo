@@ -1,0 +1,12 @@
+se quiséssemos descartar as alterações, poderemos chamar git checkout -- 
+git checkout --<file> 
+Ele serve para navegarmos em estados do repositório
+
+O git reset HEAD <file> serve para desfazer algo que foi para o estado que precisa ser commitado.
+
+
+Após fazermos a alteração no título do curso, a adição e o commit do arquivo, acabamos verificando que introduzimos um bug, e que este código não podia ter sido commitado. Como será que desfazemos um commit já realizado? 
+
+git revert <hash> do commit.
+
+Isso fará com que o commit informado seja desfeito, criando outro. Ao ser rodado, portanto, ele irá gerar um commit cuja mensagem pode ser alterada, usaremos ":x" para salvarmos e sairmos da tela. 
