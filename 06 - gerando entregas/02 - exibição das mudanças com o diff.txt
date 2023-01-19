@@ -1,0 +1,16 @@
+Com o comando git diff, nós vimos que é possível visualizarmos as mudanças realizadas em determinado código. Podemos ver as diferenças entre commits, branches, etc.
+
+Como o git diff exibe as mudanças no código.
+
+git diff
+
+git diff commit1..commit2 
+
+Ele mostra todas as alterações foram feitas de um commit ao outro.
+
++ linha adicionada
+- linha removida
+- linha modificada (versão antiga)
++ linha modificada (nova versão)
+
+O sinal de subtração (-) antes da linha indica que ela não está mais presente no arquivo. Já o sinal de adição (+) mostra que é uma linha nova. Alterações são representadas por uma remoção e uma adição de linha

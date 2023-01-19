@@ -1,0 +1,8 @@
+Vimos no último vídeo como gerar versões, ou marcos interessantes em nosso sistema de controle de versões.
+
+Que resultado gera o envio de uma tag para o GitHub?
+
+
+Gera uma Release, ou seja, conseguimos baixar um arquivo compactado com o nosso código neste ponto.
+
+GitHub nos dá a possibilidade de baixar um arquivo compactado contendo o código no estado em que a tag foi gerada.

@@ -1,0 +1,14 @@
+adicionando tag e definindo um nome
+
+Exemplo:
+
+git tag -a v0.1.0 -m "Lançando a primeira versão (Beta) da aplicação de cursos."
+
+git tag mostra todas as tags criadas e disponíveis.
+
+git tag push (local) ou global serve para realizar o push do arquivo marcado com a tag
+
+sabemos que é possível fazer push de master, ou de qualquer outra branch, como com git push local master e depois git push local v0.1.0 para enviarmos a tag ao servidor.
+
+A release poderá inclusive ser compartilhada com outras pessoas, por meio da URL correspondente, possibilitando o acompanhamento das releases do projeto. Esta é uma feature bem interessante do GitHub!
+
