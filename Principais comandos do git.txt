@@ -47,17 +47,29 @@ após criar repositório, enviar para a urgl e depois git push --set-upstream or
 
 ********VENDO HISTÓRICO DO GIT com git log*****************
 
-git log mostra o histórico de modificações no repositório 
+git log mostra o histórico de modificações no repositório
+
+git log --decorate --oneline --graph --all
+
 
 *************ARQUIVOS OCUlTOS**************
 
 Iniciar -> Opções de explorador de arquivos
+************CRIANDO UMA NEW BRANCH********
 
+git branch nomedabranch
+
+git checkout -b nomedabranch para navegar na branch 
 Modo de exibições:
 
 Desmacar: "ocultar extensões dos tipos de arquivos conhecidos"
 
 Marcar: "Mostrar arquivos, pastas e unidades ocultas"
+
+**************REVERTENDO COMMIT***********************************
+
+git log --decorate --oneline --graph --all
+
 
 *****************COMO USAR O VIM:*********************************
 
